@@ -5,4 +5,12 @@ addr = "127.0.0.1"
 port = "4200"
 
 
-[Hubs]
+[Hub]
+    [Hub.port7]
+        port = "com7"
+        type = "gsm"
+        baudrate = "9600"
+        parity = "N"
+        stop = "1"
+        size = "8"
+        timeout = "5" #sec
